@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Raheem's Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+
+      <div class="btn clear" onclick="clearDisplay()">C</div>
+      <div class="btn clear" onclick=""></div>
+      <div class="btn clear" onclick=""></div>
+      <div class="btn clear" onclick="deleteValue()"><-</div>
+      
+      <div class="btn" onclick="appendDigit(7)">7</div>
+      <div class="btn" onclick="appendDigit(8)">8</div>
+      <div class="btn" onclick="appendDigit(9)">9</div>
+      <div class="btn" onclick="appendDigit('/')">/</div>
+
+      <div class="btn" onclick="appendDigit(4)">4</div>
+      <div class="btn" onclick="appendDigit(5)">5</div>
+      <div class="btn" onclick="appendDigit(6)">6</div>
+      <div class="btn" onclick="appendDigit('*')">*</div>
+
+      <div class="btn" onclick="appendDigit(1)">1</div>
+      <div class="btn" onclick="appendDigit(2)">2</div>
+      <div class="btn" onclick="appendDigit(3)">3</div>
+      <div class="btn" onclick="appendDigit('-')">-</div>
+
+      <div class="btn zero" onclick="appendDigit(0)">0</div>
+      <div class="btn" onclick="appendDigit('.')">.</div>
+      <div class="btn" onclick='appendDigit("+")'>+</div>
+
+      <div class="btn equal" onclick="calculate()">=</div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
